@@ -8,13 +8,14 @@
     <title>Blog</title>
 </head>
 
-<body>
-    <header>
+<body class="wrapper">
+    <header class="header">
     <h1>Blog rowery górskie</h1>    
     <button class="newPostBtn">Dodaj nowy post</button>
     </header>
 
-    <dialog open>
+    <dialog id="dialog" open>
+        <button class="closeBtn">X</button>
         <form action="" name="addPostForm">
             <label for="title">Tytuł:</label>
             <input type="text" name="title">

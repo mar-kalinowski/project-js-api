@@ -10,3 +10,11 @@ dialog {
     height: 400px;
     display: flex;;
 }
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
