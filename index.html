@@ -9,8 +9,27 @@
 </head>
 
 <body>
-    <header>Blog niewiadomo jeszcze o czym</header>
-    <button>Dodaj nowy post</button>
+    <header>
+    <h1>Blog rowery górskie</h1>    
+    <button class="newPostBtn">Dodaj nowy post</button>
+    </header>
+
+    <dialog>
+        <form action="" name="addPostForm">
+            <label for="title">Tytuł:</label>
+            <input type="text" name="title">
+            <label for="content">Treść posta:</label>
+            <textarea name="content" id="" cols="30" rows="10"></textarea>
+            <label for="author">Autor:</label>
+            <input type="text" name="author" id="">
+            <label for="date">Data utworzenia:</label>
+            <input type="date" name="date" id="">
+            <button name="submit" class="submit">Opublikuj</button>
+            <button name="update" class="update">Edycja postu</button>
+        </form>
+    </dialog>
+
+    <div class="posts"></div>
 
     
     <script src="app.js"></script>
